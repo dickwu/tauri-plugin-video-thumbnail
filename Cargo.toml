@@ -1,10 +1,12 @@
 [package]
 name = "tauri-plugin-video-thumbnail"
 version = "0.1.0"
-authors = [ "You" ]
-description = "Generate video thumbnails from URLs or local paths"
-edition = "2021"
-rust-version = "1.77.2"
+authors = ["Peilin Wu <lifefarmerwu@gmail.com>"]
+description = "Generate video thumbnails from URLs or local paths for Tauri applications"
+license = "MIT"
+repository = "git+https://github.com/dickwu/tauri-plugin-video-thumbnail.git"
+edition = "2024"
+rust-version = "1.85.0"
 exclude = ["/examples", "/dist-js", "/guest-js", "/node_modules"]
 links = "tauri-plugin-video-thumbnail"
 
