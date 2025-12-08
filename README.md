@@ -10,15 +10,15 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-tauri-plugin-video-thumbnail = { git = "https://github.com/your-username/tauri-plugin-video-thumbnail" }
+tauri-plugin-video-thumbnail = "0.1"
 ```
 
 ### JavaScript/TypeScript
 
 ```bash
-npm install tauri-plugin-video-thumbnail-api
+npm install tauri-plugin-video-thumbnail
 # or
-pnpm add tauri-plugin-video-thumbnail-api
+pnpm add tauri-plugin-video-thumbnail
 ```
 
 ## Setup
@@ -49,7 +49,7 @@ fn main() {
 ### JavaScript/TypeScript
 
 ```typescript
-import { generateThumbnail, getThumbnailDataUrl } from 'tauri-plugin-video-thumbnail-api'
+import { generateThumbnail, getThumbnailDataUrl } from 'tauri-plugin-video-thumbnail'
 
 // Generate thumbnail as base64
 const result = await generateThumbnail({
