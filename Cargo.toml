@@ -11,15 +11,15 @@ exclude = ["/examples", "/dist-js", "/guest-js", "/node_modules"]
 links = "tauri-plugin-video-thumbnail"
 
 [dependencies]
-tauri = { version = "2.9.4" }
+tauri = { version = "2.11.6" }
 serde = { version = "1.0", features = ["derive"] }
 thiserror = "2"
 thumbnailer = "0.5"
 mime = "0.3"
-reqwest = { version = "0.12", features = ["rustls-tls"], default-features = false }
+reqwest = { version = "0.13", features = ["rustls"], default-features = false }
 tokio = { version = "1", features = ["fs"] }
-base64 = "0.22"
+base64 = "0.23"
 uuid = { version = "1", features = ["v4"] }
 
 [build-dependencies]
-tauri-plugin = { version = "2.5.2", features = ["build"] }
+tauri-plugin = { version = "2.6.3", features = ["build"] }
